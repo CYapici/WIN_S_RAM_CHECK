@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <RAM>
+    <ProjectName><![CDATA[M]]></ProjectName>
+    <CheckPeriodInSeconds><![CDATA[1000]]></CheckPeriodInSeconds>
+    <ServerIpAddress><![CDATA[129.9.9.1]]></ServerIpAddress>
+    <Name><![CDATA[WS_Alarm_Ram]]></Name>
+    <ServiceName><![CDATA[W3SVC]]></ServiceName>
+    <AlarmStartSeverity><![CDATA[1]]></AlarmStartSeverity>
+    <AlarmEndSeverity><![CDATA[5]]></AlarmEndSeverity>
+    <AlarmValue><![CDATA[3]]></AlarmValue>
+    <AlarmCode><![CDATA[1111]]></AlarmCode>
+    <AlarmFilePath><![CDATA[C:\\Alarm.txt]]></AlarmFilePath>
+    <FtpIP><![CDATA[127.0.0.1]]></FtpIP>
+    <FtpPort><![CDATA[21]]></FtpPort>
+    <FtpEnabled><![CDATA[yes]]></FtpEnabled>
+    <FtpFileName><![CDATA[AlarmRam.txt]]></FtpFileName>
+    <EmailPort><![CDATA[587]]></EmailPort>
+    <EmailEnabled><![CDATA[yes]]></EmailEnabled>
+    <EmailSSLEnabled><![CDATA[yes]]></EmailSSLEnabled>
+    <EmailSubject><![CDATA[Sms Sender Stopped]]></EmailSubject>
+    <EmailBody><![CDATA[Sms Sender Stopped]]></EmailBody>
+    <EmailBodyWhatTodo><![CDATA[Alarm_Winserv1.txt]]></EmailBodyWhatTodo>
+    <EmailSenderEmailAddress><![CDATA[Alarm_Winserv1.txt]]></EmailSenderEmailAddress>
+    <EmailSenderEmailPassword><![CDATA[Alarm_Winserv1.txt]]></EmailSenderEmailPassword>
+    <EmailTo><![CDATA[cagatay.yapici@cagatayyapici.com]]></EmailTo>
+    <SmsEnabled><![CDATA[yes]]></SmsEnabled>
+    <SmsText><![CDATA[Alarm_Winserv1.txt]]></SmsText>
+    <SmsTo><![CDATA[22540506084#225033645532]]></SmsTo>
+    <ResponsiblePeople><![CDATA[ cagatay]]></ResponsiblePeople>
+    <ServiceCode><![CDATA[2233]]></ServiceCode>
+    <AlarmPercentage><![CDATA[1]]></AlarmPercentage>
+    <MessageStarted><![CDATA[RAM   critical values are  OK.]]></MessageStarted>
+    <MessageStopped><![CDATA[RAM excessive usage  problem! RAM Usage is greater than The Value :]]></MessageStopped>
+    
+  </RAM>
+</Settings>
